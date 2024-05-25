@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: grey;
+}
+
+.header {
+    overflow: hidden;
+    background-color: rgb(153, 245, 125);
+    /*padding: 20px 10px;*/
+  }
+
+  .header img{
+    height: 50px;
+    width: 50px;
+  }
+  
+
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: Black;
+    color: White;
+  }
+
+  .header a.active {
+    background-color: rgb(4, 107, 21);
+    color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header-Right {
+    float: right;
+  }
+
+
+/* START OF SECTION */
+.section-title h2, p{
+    color:  white;
+    font-size: 30px;
+    font-family: Arial;
+    text-align: center;
+  }
+
+.container {
+  display: flex;
+  font-family: Arial;
+}
+
+.item {
+  flex:1;
+  text-align: left;
+  background-color: white;
+  border-top: 5px solid green;
+  margin: 5px;
+  list-style-position: inside;
+  padding-left: 10px;
+  line-height: 1cm;
+}
+
+.item ul{
+padding-left: 25px;
+}
+
+
+.footer{
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(153, 245, 125);
+  color: black;
+  text-align: center;
+}
